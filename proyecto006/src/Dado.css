@@ -1,0 +1,25 @@
+.dado {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.dado:hover {
+  transform: rotate(15deg) scale(1.1);
+}
+
+@media (max-width: 600px) {
+  .dado {
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+  }
+}
